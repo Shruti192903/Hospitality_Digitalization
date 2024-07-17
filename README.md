@@ -16,6 +16,6 @@ The Hospitality Digitalization project aims to develop a web application that fa
 3. **Output Generation**: The application generates an output file in CSV format, providing the room allocation details, including group ID, hostel name, room number, and members allocated.
 
 #### Output File
-![Output File](output_images/output_file.png)
+![Output File](result.png)
 
 
