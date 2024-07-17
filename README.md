@@ -18,4 +18,6 @@ The Hospitality Digitalization project aims to develop a web application that fa
 #### Output File
 ![Output File](result.png)
 
+![Output File](result2.png)
+
 
