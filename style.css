@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(236, 223, 223, 0.5); /* add a semi-transparent black overlay */
+}
+ 
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #111110;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.upload-section {
+  background-color: rgba(198, 192, 192, 0.7); /* semi-transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(219, 211, 211, 0.3);
+}
+
+.upload-section h2 {
+  margin-top: 0;
+}
+
+.upload-section input[type="file"] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.upload-section button {
+  background-color: #2a2929;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.result-section {
+  margin-top: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+  max-height: 60vh; /* set a maximum height for the result section */
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.room {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(52, 50, 50, 0.1);
+}
+
+.room h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.room p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.room ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.room li {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+
+.title-container {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 10%;
+  text-align: center;
+  color: rgb(77, 75, 75);
+  padding: 20px;
+}
+
+.title {
+  font-size: 44px;
+  font-weight: bold;
+  /* color: hsl(55, 97%, 49%); green color for the title */
+  color: #070707;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  overflow: hidden; /* hide the text initially */
+  white-space: nowrap; /* prevent the text from wrapping */
+  animation: typewriter 2s steps(20) 1s 1 normal both;
+  opacity: 0; /* set the initial opacity to 0 */
+  animation-fill-mode: forwards; /* keep the final state of the animation */
+}
+
+@keyframes typewriter {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+.container {
+  margin-top: 35%;
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 0.5px solid #3b3b3a;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(220, 216, 216, 0.1);
+}
+
+.upload-section {
+  background-color: rgba(85, 85, 82, 0.7); /* semi-transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Room Allocation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="title-container">
+    <h1 class="title">Room Allocation</h1>
+  </div>
+  <div class="container">
+    <div class="upload-section">
+      <h2>Upload CSV Files</h2>
+      <input type="file" id="groupsFile" accept=".csv">
+      <input type="file" id="roomsFile" accept=".csv">
+      <button id="processButton">Process</button>
+    </div>
+    <div class="result-section">
+      <h2>Room Allocation Results</h2>
+      <div id="resultContainer"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
